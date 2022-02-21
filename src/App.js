@@ -33,7 +33,7 @@ function App() {
       </Stack>
 
       {/* List nama pacar */}
-      <ListGroup className="mt-4">
+      <ListGroup className="mt-3">
         {listPacar.map((pcr, id) => {
           return <ListGroup.Item key={id}>{pcr}</ListGroup.Item>;
         })}
